@@ -37,7 +37,7 @@ Press **Window Key** + **R** to start **Run**, and type in:
 ```
 
 **cmd** (command prompt) output sample: 
-	![cmd](/ReadMe%20image/cmdInterface.png)
+	![cmd](/ReadMe%20image/cmdInterface.PNG)
 
 Type command below in cmd to confirm that npm is correctly installed:
 
@@ -48,7 +48,7 @@ Type command below in cmd to confirm that npm is correctly installed:
 ```
 
 sample:
-	![cmdNpm](/ReadMe%20image/cmdNpm.png)
+	![cmdNpm](/ReadMe%20image/cmdNpm.PNG)
 
 To confirm that Node.js is correctly installed:
 
@@ -59,7 +59,7 @@ To confirm that Node.js is correctly installed:
 ```
 
 sample:
-	![cmdNode](/ReadMe%20image/cmdNode.png)
+	![cmdNode](/ReadMe%20image/cmdNode.PNG)
 	
 - Install Polymer CLI.
 
