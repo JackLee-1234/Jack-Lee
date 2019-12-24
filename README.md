@@ -27,7 +27,7 @@ Once installed, type in cmd to confirm that Git is correctly installed:
 - Install [Node.js](https://nodejs.org/en/download/) based on your operating system, this will install npm as well.
 - To check your operating system, right click on your **This PC** and click **Properties**.
 - Sample image:
-	![OS](/ReadMe%20image/Operating%20System.png)
+	![os](/ReadMe%20image/Operating%20System.png)
 
 Press **Window Key** + **R** to start **Run**, and type in:
 ```
@@ -37,6 +37,7 @@ Press **Window Key** + **R** to start **Run**, and type in:
 ```
 
 **cmd** (command prompt) output sample: 
+	![cmd](/ReadMe%20image/cmdInterface.png)
 
 Type command below in cmd to confirm that npm is correctly installed:
 
@@ -46,6 +47,9 @@ Type command below in cmd to confirm that npm is correctly installed:
 
 ```
 
+sample:
+	![cmdNpm](/ReadMe%20image/cmdNpm.png)
+
 To confirm that Node.js is correctly installed:
 
 ```
@@ -54,6 +58,9 @@ To confirm that Node.js is correctly installed:
 
 ```
 
+sample:
+	![cmdNode](/ReadMe%20image/cmdNode.png)
+	
 - Install Polymer CLI.
 
 To install Polymer CLI, run the following command:
