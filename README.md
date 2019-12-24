@@ -27,7 +27,7 @@ Once installed, type in cmd to confirm that Git is correctly installed:
 - Install [Node.js](https://nodejs.org/en/download/) based on your operating system, this will install npm as well.
 - To check your operating system, right click on your **This PC** and click **Properties**.
 - Sample image:
-	![OS](https://github.com/JackLee-1234/Jack-Lee/tree/master/ReadMe%20image)
+	![OS](/ReadMe%20image/Operating%20System.png)
 
 Press **Window Key** + **R** to start **Run**, and type in:
 ```
