@@ -15,6 +15,13 @@
 
 ### Steps
 
+#### 0. Open command prompt (cmd)
+
+Press **Window Key** + **R** to start **Run**, and type in `cmd`
+
+**cmd** (command prompt) output Example: 
+	![cmd](/ReadMe%20image/cmdInterface.PNG)
+
 #### 1. Install Polymer 3.0
 
 - Install [Git](https://git-scm.com/download/win).
@@ -28,11 +35,6 @@ Once installed, type in cmd to confirm that Git is correctly installed:
 - To check your operating system, right click on your **This PC** icon and click **Properties**.
 - Example:
 	![os](/ReadMe%20image/Operating%20System.png)
-
-Press **Window Key** + **R** to start **Run**, and type in `cmd`
-
-**cmd** (command prompt) output Example: 
-	![cmd](/ReadMe%20image/cmdInterface.PNG)
 
 After installation, type in command below in cmd to confirm that npm is correctly installed:
 
