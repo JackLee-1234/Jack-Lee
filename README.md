@@ -39,7 +39,7 @@ Press **Window Key** + **R** to start **Run**, and type in:
 **cmd** (command prompt) output sample: 
 	![cmd](/ReadMe%20image/cmdInterface.PNG)
 
-Type command below in cmd to confirm that npm is correctly installed:
+After installation, type in command below in cmd to confirm that npm is correctly installed:
 
 ```bash
 
@@ -78,43 +78,92 @@ To confirm that the Polymer CLI has been correctly installed:
 	polymer --version
 
 ```
-  
+sample:
+ 	![cmdPolymer](/ReadMe%20image/cmdPolymer.PNG)
 
 #### 2. Install some useful software
 
 - Microsoft Visual Studio Code from [here](https://code.visualstudio.com/download)
 
-  
+
+
 
 #### 3. Configure the username name and email address in CMD by running the following command:
 
 ```
 
-git config --global user.name <username> user.email <email-address>
+git config --global user.name <username>
+
+git config --global user.email <email-address>
 
 ```
 ##### Note: Change the value in `<username>` and `<email-address>`.
   
+Verify your configuration by showing username and email:
+```
+
+git config user.name
+
+git config user.email
+
+```
+
+sample:
+ 	![cmdGitConfig](/ReadMe%20image/cmdGitConfig.PNG)
 
 #### 4. Clone project files from Titanfour Git Repository.
 
-```
-
-git clone https://git.titanfour.com:6443/project/DSU-6.git <directory-path>
+First we will create a folder by type in following commands:
 
 ```
 
-##### `<directory-path>` is the path of the file you will like to save to.  Optional way is to leave blank in `<directory-path>`.
+cd \
 
-  
+mkdir <directory-name>
+
+cd <directory-name>
+
+```
+
+in this sample, im using **DSU-6** as `<directory-name>`:
+ 	![cmdMkdir](/ReadMe%20image/cmdMkdir.PNG)
+
+
+Next, we will clone the Polymer project into this folder:
+
+```
+
+git clone https://git.titanfour.com:6443/project/DSU-6.git
+
+```
+
+sample:
+ 	![cmdClone](/ReadMe%20image/cmdClone.PNG)
+
+If you are successfully done, a folder name **DSU-6** will be created in your directory path, open it and open **NewMobileApp** folder:
+	![directory](/ReadMe%20image/folder.PNG)
+
+Click into the highlight path as in sample, and copy down the path:
+	![cd-directory](/ReadMe%20image/cdFolder.png)
+
+Back to your command prompt, and type in following command:
+
+```
+
+cd <the-path-you-copied-down>
+
+```
+
+In my sample, im using `<C:\DSU-6\DSU-6\NewMobileApp>` as my copied path:
+	![cmdPath](/ReadMe%20image/cmdPath.PNG)
 
 #### 5. Install all the neccessary modules by running the following command:
 
 ```
 
-cd <your-project-file-path>
-
 npm i
+
+npm audit fix
 
 ```
 
@@ -122,21 +171,29 @@ npm i
 
 ```
 
-cd <your-project-file-path>
-
 npm install
 
+npm audit fix
 ```
+
+##### Note: these commands may take up to 10 minutes to complete the process, be patient.
 
 #### 6. Starting DSU-6 project
 
+type in command below to serve the project:
 ```
 
-cd <your-project-file-path>
-
-polymer serve --open
+polymer serve --port 8081
 
 ```
+##### Note: Login to your CBD2_VPN before proceed to next step:
+
+then, go to [here](localhost:8081)
+
+press key **F12** to enter Console mode, and press key **Ctrl** + **Shift** + **M** to enter Mobile View.
+##### Note: if key F12 do not entering Console mode, try press key Fn + F12.
+
+
 #### 7. Have Fun! :smiley:
 
   
