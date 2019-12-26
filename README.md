@@ -193,6 +193,8 @@ then, go to [here](localhost:8081)
 press key **F12** to enter Console mode, and press key **Ctrl** + **Shift** + **M** to enter Mobile View.
 ##### Note: if key F12 do not entering Console mode, try press key Fn + F12.
 
+sample Print Screen:
+	![printScreen](/ReadMe%20image/printScreen.PNG)
 
 #### 7. Have Fun! :smiley:
 
